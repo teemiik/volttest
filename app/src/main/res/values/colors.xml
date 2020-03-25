@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorSecondPrimary">#3366FF</color>
+    <color name="colorSecondPrimaryTransparent">#80776DB4</color>
+    <color name="colorThirdPrimary">#00D68F</color>
+    <color name="colorYellow">#FFBA00</color>
+
+    <color name="colorText">#222B45</color>
+    <color name="colorTextDefault">#8F9BB3</color>
+
+    <color name="colorProgressBarUnselected">#608F9BB3</color>
+
+    <color name="colorDefault">#EDF1F7</color>
+
+    <color name="colorGray">#8F9BB3</color>
+    <color name="colorGrayTransparent">#308F9BB3</color>
+
+    <color name="colorRadioButton">#F7F9FC</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorError">#FF3D71</color>
+    
+    <color name="colorUnreachedProgressBar">#C5CEE0</color>
+</resources>

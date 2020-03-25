@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="ThemeAppCompatLightNoActionBarFullScreen" parent="@style/Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@android:color/transparent</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+        <item name="android:windowTranslucentNavigation" tools:targetApi="kitkat">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorAccent">@color/colorSecondPrimary</item>
+        <item name="android:textColorSecondary">@color/colorSecondPrimary</item>
+    </style>
+
+    <style name="TitleTextView">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DescriptionTextView">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="ErrorTextView">
+        <item name="android:textColor">@color/colorError</item>
+    </style>
+
+</resources>

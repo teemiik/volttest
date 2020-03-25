@@ -1,0 +1,5 @@
+package com.voltmobi.testapp.network.api.error
+
+enum class TypeApiError {
+    UNKNOWN_ERROR, INVALID_CODE, UNEXPECTED_ERROR, INVALID_TOKEN, USER_NOT_FOUND, INVALID_USER_DATA, ACCESS_DENIED, UNKNOWN_HOST, TIMEOUT
+}

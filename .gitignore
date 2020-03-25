@@ -1,0 +1,91 @@
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+/out
+/.idea
+*.iml
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+/appConfig/build
+/app/build
+/build/intermediates
+/.gradle
+/build/generated
+/gradlew.bat
+/build
+.DS_Store
+
+app/keystore_20160714.jks
+
+
+# kde
+.directory
+
+# merge leftovers
+*.orig
+
+# signing config
+app/signing.properties
+
+# layout inspector reports
+*.li
+
+captures/*
+
+#classy shark tool
+classyshark*
+ClassyShark*
+
+
+*Sandbox.java
+*Sandbox.kt
+
+**/projectFilesBackup[0-9]*
+**/projectFilesBackup*
+
+*.pem
+*.crt
+
+**/build/**
+
+misc/**
+
+**attach_pid**

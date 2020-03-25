@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Тест</string>
+
+    <string name="january">Январь</string>
+    <string name="february">Февраль</string>
+    <string name="march">Март</string>
+    <string name="april">Апрель</string>
+    <string name="may">Май</string>
+    <string name="june">Июнь</string>
+    <string name="july">Июль</string>
+    <string name="august">Август</string>
+    <string name="september">Сентябрь</string>
+    <string name="october">Октябрь</string>
+    <string name="november">Ноябрь</string>
+    <string name="december">Декабрь</string>
+
+    <string name="month">Месяц</string>
+    <string name="year">Год</string>
+
+    <string name="inflation">Инфляция</string>
+    <string name="calculator">Калькулятор</string>
+
+    <string name="http_error_unexpected_error">Неожиданная ошибка!</string>
+    <string name="http_error_unknown_error">Неизвестная ошибка</string>
+    <string name="http_error_internet_error">Неполадки с интернет соединением, проверьте включен ли интернет.</string>
+    <string name="http_error_timeout">Время запроса истекло.</string>
+
+    <string name="select_start_date">Выберите начальную дату</string>
+    <string name="select_end_date">Выберите конечную дату</string>
+
+    <string name="sum_inflation_part1">Инфляция за %s</string>
+    <string name="sum_inflation_part2">месяцев составила %s %%</string>
+
+    <string name="repeat">Повторить</string>
+
+</resources>

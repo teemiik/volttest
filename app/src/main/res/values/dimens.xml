@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="width_button">370dp</dimen>
+    <dimen name="layout_margin_bottom">20dp</dimen>
+    <dimen name="layout_margin_top_title_text">20dp</dimen>
+    <dimen name="layout_margin_start_title_text">15dp</dimen>
+
+    <dimen name="edittext_padding_start">10dp</dimen>
+
+    <dimen name="layout_margin_button_left_right">15dp</dimen>
+    <dimen name="layout_margin_top_between_title_additional">14dp</dimen>
+
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">25sp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">25sp</dimen>
+
+</resources>

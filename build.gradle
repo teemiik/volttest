@@ -1,0 +1,40 @@
+ext {
+    nav_version = '2.1.0'
+    dagger_version = '2.25.2'
+    androidx_version = '1.1.1'
+    coroutines_version = '1.3.2'
+    timber_version = '4.7.1'
+    crashlytics_version = '2.6.1@aar'
+    retrofit_version = '2.6.1'
+    okhttp_version = '4.2.1'
+    room_version = '2.2.2'
+    recyclerviewanimators_version = '3.0.0'
+    commonscsv_version = 1.7
+}// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext.kotlin_version = '1.3.61'
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://maven.fabric.io/public' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.3'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

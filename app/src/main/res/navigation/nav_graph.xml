@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/showInflationFragment">
+    <fragment
+        android:id="@+id/showInflationFragment"
+        android:name="com.voltmobi.testapp.ui.ShowInflationFragment"
+        android:label="ShowInflationFragment" >
+        <action
+            android:id="@+id/action_showInflationFragment_to_calculateInflationFragment"
+            app:destination="@id/calculateInflationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/calculateInflationFragment"
+        android:name="com.voltmobi.testapp.ui.CalculateInflationFragment"
+        android:label="CalculateInflationFragment" >
+        <action
+            android:id="@+id/action_calculateInflationFragment_to_showInflationFragment"
+            app:destination="@id/showInflationFragment" />
+    </fragment>
+</navigation>
